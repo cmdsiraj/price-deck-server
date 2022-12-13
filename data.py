@@ -42,7 +42,7 @@ def get_data_to_scrape(website, product):
             'name': ['_4rR01T', 'IRpwTa', 's1Q9rs'],
             'price': '_30jeq3',
             'link': ['_1fQZEK', 'IRpwTa', 's1Q9rs'],
-            'image': ['_396cs4 _3exPp9', '_2r_T1I'],
+            'image': ['_396cs4', '_2r_T1I'],
             'rating': '_3LWZlK'
         }
         tags = {
