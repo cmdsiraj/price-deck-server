@@ -20,7 +20,6 @@ def main():
 
 
 @app.route("/scrape/<product>")
-@cross_origin()
 def scraper_main(product="tv"):
     product = re.sub(" ", "+", product)
     flipkart_data_to_scrape = get_data_to_scrape("flipkart", product)
@@ -43,7 +42,6 @@ def scraper_main(product="tv"):
 
 
 @app.route("/scrape_link/<uid>")
-@cross_origin()
 def scrape_data(uid):
     if not firebase_admin._apps:
         cred = credentials.Certificate("price-deck-10f0b298a802.json")
